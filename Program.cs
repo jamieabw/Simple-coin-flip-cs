@@ -27,6 +27,6 @@ class main
         Console.WriteLine(tailsResults.Count() + " tails");
         float headPercent = (float) (headResults.Count() / Convert.ToDouble(totalFlips)) * 100; // calculations for percentages
         float tailPercent = (float) (tailsResults.Count() / Convert.ToDouble(amountOfFlips)) * 100;
-        Console.WriteLine(headPercent + "% were heads and " + tailPercent + "% were tails");
+        Console.WriteLine($"{headPercent}% were heads and {tailPercent} were tails");
     }
 }
